@@ -1,0 +1,22 @@
+joueur rouge et vert
+
+plateau 9 lignes, 10 colonnes
+
+cases de 1 à 54
+
+dé de 1 à 6
+
+si jeton tombe sur jeton adversaire, on relance le dé
+
+case rouge, vert, noir
+
+sur case noir, on repart au depart
+
+sur case de sa propre couleur, on avance de 2, si on tombe sur le jeton adversaire apres le saut de 2, on avance de 1 encore
+
+sur case couleur adversaire, on recule de 2, si on tombe sur le jeton adversaire apres le recul de 2, on recul de 1
+
+
+------
+
+selection les griditem sauf ceux avec la classe colorvide

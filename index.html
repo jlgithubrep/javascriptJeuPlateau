@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jeu de Plateau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+
+</head>
+
+<body>
+
+
+    <div class="grid-container">
+        <!-- debut ligne1 -->
+        <div class="grid-item" id="c1"></div>
+        <div class="grid-item" id="c2"></div>
+        <div class="grid-item" id="c3"></div>
+        <div class="grid-item" id="c4"></div>
+        <div class="grid-item" id="c5"></div>
+        <div class="grid-item caserouge" id="c6"></div>
+        <div class="grid-item casevert" id="c7"></div>
+        <div class="grid-item" id="c8"></div>
+        <div class="grid-item" id="c9"></div>
+        <div class="grid-item casenoir" id="c10"></div>
+        <!-- fin ligne2 -->
+
+
+        <div class="grid-item ligne1horizontalvide colorvide"></div>
+        <div class="grid-item" id="c11"></div>
+        <!-- <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div> -->
+
+
+
+        <div class="grid-item casenoir" id="c33"></div>
+        <div class="grid-item" id="c34"></div>
+        <div class="grid-item casevert" id="c35"></div>
+        <div class="grid-item" id="c36"></div>
+        <div class="grid-item" id="c37"></div>
+        <div class="grid-item" id="c38"></div>
+        <div class="grid-item" id="c39"></div>
+        <div class="grid-item casenoir" id="c40"></div>
+        <div class="grid-item ligne1verticalvide colorvide"></div>
+        <div class="grid-item" id="c12"></div>
+
+
+
+        <div class="grid-item caserouge" id="c32"></div>
+        <div class="grid-item ligne2horizontalvide colorvide"></div>
+        <!-- <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div> -->
+        <div class="grid-item" id="c41"></div>
+        <!-- <div class="grid-item"></div> -->
+        <div class="grid-item" id="c13"></div>
+
+
+
+        <div class="grid-item" id="c31"></div>
+        <div class="grid-item ligne2verticalvide colorvide"></div>
+        <div class="grid-item casenoir" id="c51"></div>
+        <div class="grid-item" id="c52"></div>
+        <div class="grid-item" id="c53"></div>
+        <div class="grid-item" id="c54"></div>
+        <div class="grid-item ligne3verticalvide colorvide"></div>
+        <div class="grid-item" id="c42"></div>
+        <div class="grid-item" id="c14"></div>
+
+
+
+
+        <div class="grid-item" id="c30"></div>
+        <div class="grid-item" id="c50"></div>
+        <!-- <div class="grid-item"></div> -->
+        <div class="grid-item" id="c43"></div>
+        <div class="grid-item ligne3horizontalvide colorvide"></div>
+        <!-- <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div> -->
+        <div class="grid-item" id="c15"></div>
+
+
+
+        <!-- <div class="grid-item"></div> -->
+        <div class="grid-item test" id="c29"></div>
+        <div class="grid-item casenoir" id="c49"></div>
+        <div class="grid-item" id="c48"></div>
+        <div class="grid-item" id="c47"></div>
+        <div class="grid-item" id="c46"></div>
+        <div class="grid-item" id="c45"></div>
+        <div class="grid-item casenoir" id="c44"></div>
+        <div class="grid-item" id="c16"></div>
+
+
+
+        <div class="grid-item" id="c28"></div>
+        <div class="grid-item ligne4horizontalvide colorvide"></div>
+        <!-- <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div> -->
+        <div class="grid-item" id="c17"></div>
+
+
+
+        <div class="grid-item casenoir" id="c27"></div>
+        <div class="grid-item" id="c26"></div>
+        <div class="grid-item" id="c25"></div>
+        <div class="grid-item" id="c24"></div>
+        <div class="grid-item caserouge" id="c23"></div>
+        <div class="grid-item casevert" id="c22"></div>
+        <div class="grid-item" id="c21"></div>
+        <div class="grid-item" id="c20"></div>
+        <div class="grid-item" id="c19"></div>
+        <div class="grid-item casenoir" id="c18"></div>
+
+
+
+
+    </div>
+
+    <div class="table">
+        <button id="lancerDe">Lancer le dé</button>
+        <div>Au tour du joueur <span id="joueurCourant"></span>!</div>
+        <div id="log"> Log: </div>
+    </div>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
